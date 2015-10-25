@@ -28,6 +28,8 @@
 		3D3E614719305C8200DE8528 /* maximum clique */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "maximum clique"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D3E614A19305C8200DE8528 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		3D3E614C19305C8200DE8528 /* maximum_clique.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = maximum_clique.1; sourceTree = "<group>"; };
+		3D3E61531931CD7D00DE8528 /* data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = data.txt; path = "DerivedData/maximum clique/Build/Products/Debug/data.txt"; sourceTree = "<group>"; };
+		3D3E61541931CD7D00DE8528 /* res.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = res.txt; path = "DerivedData/maximum clique/Build/Products/Debug/res.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,8 @@
 		3D3E613E19305C8200DE8528 = {
 			isa = PBXGroup;
 			children = (
+				3D3E61531931CD7D00DE8528 /* data.txt */,
+				3D3E61541931CD7D00DE8528 /* res.txt */,
 				3D3E614919305C8200DE8528 /* maximum clique */,
 				3D3E614819305C8200DE8528 /* Products */,
 			);
@@ -144,7 +148,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -183,6 +187,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -227,6 +232,7 @@
 				3D3E615219305C8200DE8528 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
